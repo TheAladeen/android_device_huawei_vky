@@ -38,20 +38,16 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 PRODUCT_PACKAGES += \
     libion
 
-# FPS
-PRODUCT_PACKAGES += \
-    hw-fpnav-daemon
-
 PRODUCT_PACKAGES += \
     HwCamera2
-
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/prebuilt/system/bin/hw-fpnav:system/bin/hw-fpnav \
-    $(LOCAL_PATH)/prebuilt/system/etc/hw-fpnav.dex:system/etc/hw-fpnav.dex
 
 # HIDL
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/compatibility_matrix.xml:system/compatibility_matrix.xml
+
+# KeyHandler
+PRODUCT_PACKAGES += \
+    org.lineageos.keyhandler
 
 # NFC
 PRODUCT_PACKAGES += \
@@ -99,8 +95,9 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 PRODUCT_PACKAGES += \
     RemovePackages
 
+# TextClassifier smart selection model files
 PRODUCT_PACKAGES += \
-    su
+    textclassifier.smartselection.bundle1
 
 # VNDK
 PRODUCT_COPY_FILES += \
