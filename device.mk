@@ -51,7 +51,7 @@ PRODUCT_PACKAGES += \
 
 # ROOT
 PRODUCT_PACKAGES += \
-    Phh-su
+    phh-su
 
 # NFC
 PRODUCT_PACKAGES += \
