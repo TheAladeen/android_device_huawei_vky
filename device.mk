@@ -16,6 +16,8 @@
 $(call inherit-product-if-exists, vendor/huawei/vky/vky-vendor.mk)
 $(call inherit-product-if-exists, vendor/opengapps/build/opengapps-packages.mk)
 GAPPS_VARIANT := micro
+GAPPS_FORCE_PACKAGE_OVERRIDES := true
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
