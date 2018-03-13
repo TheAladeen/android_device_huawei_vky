@@ -1,3 +1,2 @@
 # VNDK
 /system/bin/vndk-detect    u:object_r:vndk_detect_exec:s0
-/system/bin/phh-su         u:object_r:phhsu_exec:s0
