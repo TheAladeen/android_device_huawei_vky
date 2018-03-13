@@ -49,6 +49,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     org.lineageos.keyhandler
 
+# ROOT
+PRODUCT_PACKAGES += \
+    Phh-su
+
 # NFC
 PRODUCT_PACKAGES += \
     NfcNci \
