@@ -45,9 +45,6 @@ PRODUCT_PACKAGES += \
     libion
 
 PRODUCT_PACKAGES += \
-    HwCamera2
-
-PRODUCT_PACKAGES += \
     Snap
 
 
@@ -58,10 +55,6 @@ PRODUCT_COPY_FILES += \
 # KeyHandler
 PRODUCT_PACKAGES += \
     org.lineageos.keyhandler
-
-# ROOT
-PRODUCT_PACKAGES += \
-    su
 
 # NFC
 PRODUCT_PACKAGES += \
@@ -123,7 +116,7 @@ PRODUCT_PACKAGES += \
     vndk-sp
 
 # disable sdcardfs
-PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    ro.sys.sdcardfs=0 \
-    persist.sys.sdcardfs.emulated=0 \
-    persist.sys.sdcardfs.public=0
+# PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+#     ro.sys.sdcardfs=0 \
+#     persist.sys.sdcardfs.emulated=0 \
+#     persist.sys.sdcardfs.public=0
