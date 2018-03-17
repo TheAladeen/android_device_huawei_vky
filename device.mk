@@ -45,7 +45,7 @@ PRODUCT_PACKAGES += \
     libion
 
 PRODUCT_PACKAGES += \
-    Snap
+    HwCamera2
 
 
 # HIDL
