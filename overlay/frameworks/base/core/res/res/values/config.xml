@@ -185,6 +185,5 @@
     <bool name="config_pinnerCameraApp">true</bool>
  
     <!-- Does the device supports fast charging -->
-    <bool name="config_FastChargingLedSupported">true</bool>
 
 </resources>
