@@ -112,11 +112,11 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.build.version.sdk=$(PLATFORM_SDK_VERSION)
 
 # Telephony
-PRODUCT_PACKAGES += \
-    telephony-huawei
+# PRODUCT_PACKAGES += \
+#     telephony-huawei
 
-PRODUCT_BOOT_JARS += \
-    telephony-huawei
+# PRODUCT_BOOT_JARS += \
+#     telephony-huawei
 
 # Remove unwanted packages
 PRODUCT_PACKAGES += \
